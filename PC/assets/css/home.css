@@ -24,6 +24,22 @@ a, a:hover{
     align-items: center;
 }
 
+.p5 {
+    padding: 5px;
+}
+
+.p10 {
+    padding: 10px;
+}
+
+.pr-5 {
+    padding-right: 5px;
+}
+
+.pl-5 {
+    padding-left: 5px;
+}
+
 .pd-15 {
     padding-left: 15px;
     padding-right: 15px;
@@ -43,6 +59,12 @@ a, a:hover{
 
 .text-center {
     text-align: center;
+}
+
+.h-text-truncate {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .btn {
