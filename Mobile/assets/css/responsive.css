@@ -120,6 +120,13 @@
     margin-left: 91.66667%;
 }
 
+.d-none {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
 /* >= Tablet */
 @media (min-width: 740px) {
     .col {
@@ -554,5 +561,13 @@
 
      .l-o-11 {
         margin-left: 91.66667%;
+    }
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 767px) {
+    .d-md-block {
+        display: block;
     }
 }
