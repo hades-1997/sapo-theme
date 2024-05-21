@@ -1,8 +1,23 @@
-
+:root {
+    --primary-color: #008250;
+    --primary-bg: #00b46f;
+}
 
 .d-flex {
     display: flex;
+    flex-wrap: wrap;
+}
+
+.align-items-center {
     align-items: center;
+}
+
+ul.menu-footer__list {
+    padding-left: 20px;
+}
+
+.pt-20 {
+    padding-top: 20px;
 }
 
 sub, sup {
@@ -52,6 +67,29 @@ sub, sup {
     -webkit-transition: all .5s ease-out;
     -moz-transition: all .5s ease-out;
     transition: all .5s ease-out;
+}
+
+.btn-theme {
+    border-radius: 90px;
+    display: inline-block;
+    line-height: 38px;
+    padding: 0 15px;
+    min-width: 115px;
+    text-align: center;
+    color: #fff;
+    outline: 0;
+    -webkit-user-select: none;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    white-space: nowrap;
+    font-size: 16px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+    text-decoration: none;
+    font-weight: 500;
 }
 
 .header {
@@ -227,13 +265,15 @@ sub, sup {
 }
 
 .themes-related {
-    padding: 0 10px;
+    padding: 20px 10px;
 }
 
 .themes-related h2 {
     font-size: 24px;
     text-align: center;
     margin-bottom: 30px;
+    font-weight: 600;
+    color: var(--primary-color);
 }
 
 .themes-related__item-img {
@@ -262,17 +302,75 @@ sub, sup {
     text-align: left;
 }
 
-.themes-related__item-title a{
-    color: #29353e;
-    font-size: 22px;
-    font-weight: 600;
-    line-height: 22px;
+.themes-related__item-title {
     margin: 0;
     margin-bottom: 1px;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
+}
+
+.themes-related__item-title a{
+    color: #29353e;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 22px;
     padding: 0;
+}
+
+.themes-related__item-price {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 26px;
+    color: var(--primary-color);
+    font-style: normal;
+    padding: 12px 0 0;
+    display: block;
+}
+
+.theme-intro__price sub {
+    bottom: 6px;
+    right: 2px;
+}
+
+.themes-related__action {
+    margin-top: 12px;
+}
+
+.themes-related__action .view-demo {
+    display: inline-block;
+    background: var(--primary-bg);
+    color: #fff;
+    margin-right: 3px;
+}
+
+.themes-related__action .view-detail {
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #00b46f;
+    color: #00b46f;
+}
+
+.footer {
+    padding: 20px 0px;
+    background-color: #101215;
+    color: #7d8492;
+}
+
+.footer-item__group {
+    padding: 0 10px;
+}
+
+.footer-item__copyright {
+    padding: 0 10px;
+}
+
+.footer a {
+    color: #b8b8b8;
+}
+
+.logo-bocongthuong {
+    padding: 20px 0;
 }
 
 @media (max-width: 767px) {
