@@ -133,6 +133,13 @@ a, a:hover{
 .menu-content__item.active .menu-content__item-link {
     color: #0fd186;
 }
+
+.favorite-themes .d-flex ,
+.list-category.d-flex {
+    flex-wrap: wrap;
+}
+
+
 /* banner */
 .banner {
     background-image: url('../image/bg-background/bg-top.png');
@@ -219,7 +226,7 @@ a, a:hover{
     font-weight: bold;
     font-size: 4rem;
     color: #42464e;
-    padding-bottom: 13px;
+    padding: 15px 0;
     border-bottom: 1px solid #c8e3d9;
 }
 
@@ -1100,9 +1107,14 @@ a, a:hover{
     border-bottom: 1px solid #ebebeb;
 }
 
+.slider-item_ctx-img {
+    position: relative;
+}
+
+
 
 @media (min-width:576px){
-    .container{width:540px}
+    /* .container{width:540px} */
 
     .hidden-md {
         display: none;
@@ -1111,8 +1123,11 @@ a, a:hover{
 }
 
 @media (min-width:768px){
-    .container{
+    /* .container{
         width:720px
+    } */
+    .menu-toolbar__list.hidden-sm {
+        display: flex;
     }
 }
 
@@ -1224,7 +1239,8 @@ a, a:hover{
         padding-top: 30px;
     }
 
-    .info-theme .d-flex {
+    .info-theme .d-flex ,
+    .footer-menu .d-flex{
         flex-wrap: wrap;
     }
 
@@ -1267,40 +1283,8 @@ a, a:hover{
         margin-right: 5px;
     }
 
-    .search-key {
-        width: 170px;
-        padding: 0 2px 0 5px;
-        outline: none;
-        font-size: 1.4rem;
-        font-weight: 400;
-        background: #e7f7f1;
-        color: #4c7465;
-    }
-
     .hidden-md {
         display: none;
-    }
-
-    .image-desktop {
-        position: absolute;
-        left: 0;
-        width: 420px;
-        height: 290px;
-        background-size: cover;
-        overflow: hidden;
-        padding-left: 22px;
-        padding-top: 26px;
-        margin-left: -35px;
-        margin-bottom: -30px;
-    }
-
-    .image-mobile {
-        right: 15px;
-        width: 125px;
-        height: 240px;
-        background-size: cover;
-        padding: 33px 0 0 4px;
-        bottom: -300px;
     }
 
     .image-mobile__link img {
@@ -1320,19 +1304,22 @@ a, a:hover{
         padding: 0 30px;
     }
 
-    .main-content {
-        padding-top: 30px;
-    }
-
     .input-site-name {
         width: 350px;
     }
 
-    .btn-registration {
-        padding: 0 15px;
+    .search-key {
+        width: 100%;
     }
 
-    .bg-register {
-        padding: 35px 30px 45px;
+    .send-form + .footer .footer-menu {
+        padding-top: 190px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
+
+    .pt-50 {
+        padding-top: 20px;
+    }
+
 }

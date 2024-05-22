@@ -11,75 +11,94 @@
     <link rel="stylesheet" href="./assets/css/bootstrap/bootstrap.non-responsive.css">
     <!-- font style -->
     <link rel="stylesheet" href="./assets/css/font-awesome.min.css">
-    <!-- css -->
-    <link rel="stylesheet" href="./assets/css/main.css">
+    
     <!-- responsive -->
     <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="stylesheet" href="./assets/css/home.css">
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/main.css">
 </head>
 <body>
     <section class="header">
         <div class="container">
             <div class="row menu">
-                    <div class="logo l-3">
+                    <div class="logo l-3 c-8">
                         <a href="" class="logo__link">
-                            <img src="//www.sapo.vn/Themes/Portal/Default/StylesV2/images/logo/Sapo-logo.svg" alt="logo" class="logo__img">
+                            <img src="./assets/image/logo.svg" alt="logo" class="logo__img">
                         </a>
                     </div>
-                    <div class="menu-content col-md-18">
+                    <div class="menu-content col-md-18 hidden-sm">
                         <ul class="menu-content__list">
-                            <li class="menu-content__item active"><a href="" class="menu-content__item-link">Tính năng</a></li>
-                            <li class="menu-content__item"><a href="" class="menu-content__item-link">Bảng giá</a></li>
-                            <li class="menu-content__item"><a href="" class="menu-content__item-link">Kho giao diện</a></li>
-                            <li class="menu-content__item"><a href="" class="menu-content__item-link">Kho ứng dụng</a></li>
-                            <li class="menu-content__item"><a href="" class="menu-content__item-link">Khách hàng</a></li>
+                            <li class="menu-content__item active">
+                                <a href="" class="menu-content__item-link">Tính năng</a>
+                            </li>
+                            <li class="menu-content__item">
+                                <a href="" class="menu-content__item-link">Bảng giá</a>
+                            </li>
+                            <li class="menu-content__item">
+                                <a href="" class="menu-content__item-link">Kho giao diện</a>
+                            </li>
+                            <li class="menu-content__item">
+                                <a href="" class="menu-content__item-link">Kho ứng dụng</a>
+                            </li>
+                            <li class="menu-content__item">
+                                <a href="" class="menu-content__item-link">Khách hàng</a>
+                            </li>
                         </ul>
                     </div>
-                    <a href="" class="btn btn-default btn-preview hidden-md">Liên Hệ</a>
+                    <a href="" class="btn btn-default btn-preview hidden-sm">Liên Hệ</a>
             </div>
         </div>
     </section>
     <section class="banner">
         <div class="container container-sm">
-            <div class="title">
+            <div class="title banner__title">
                 <h1 class="name-title">400+ template website bán hàng cực đẹp</h1>
                 <p>Giao diện web được thiết kế chuyên nghiệp, chuẩn SEO & phù hợp với mọi ngành nghề</p>
             </div>
-            <div class="slider">
+            <div class="slider hidden-sm">
                 <div class="silder-item">
                     <div class="row">
-                        <div class="col-md-16">
-                            <div class="image-desktop">
-                                <a href="" class="image-desktop__link">
-                                    <img src="https://bizwebtheme.dktcdn.net/themes/42/themefeatures/06e68e50115838e2b80d2ad7d7312961.jpg" alt="" class="slider-item__image-desktop">
-                                </a>
+                        <div class="d-flex slider-item_ctx">
+                            <div class="l-8 c-12 ">
+                                <div class="slider-item_ctx-img">
+                                    <div class="image-desktop hidden-sm">
+                                        <a href="" class="image-desktop__link">
+                                            <img src="./assets/image/product/product-pc.jpg" alt="" class="slider-item__image-desktop">
+                                        </a>
+                                    </div>
+                                    <div class="image-mobile">
+                                        <a href="" class="image-mobile__link">
+                                            <img src="./assets/image/product/product-mobile.png" alt="" class="slider-item__image-mobile">
+                                        </a>
+                                    </div>
+                                </div>
+                                
                             </div>
-                            <div class="image-mobile">
-                                <a href="" class="image-mobile__link">
-                                    <img src="https://bizwebtheme.dktcdn.net/themes/42/themefeatures/1feb0cd376cb2c25e3c12e41bc5c1556.png" alt="" class="slider-item__image-mobile">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-8">
-                            <p class="silder-item__mota">Giao diện website</p>
-                            <h2 class="silder-item__title">Ant Kitchen</h2>
-                            <div class="silder-item__price">
-                                <span class="silder-item__price-current"><b>1,500,000 VND</b></span>
-                            </div>
-                            <div class="button-group">
-                                <a href="" class="btn btn-default btn-preview">Xem thử</a>
-                                <a href="" class="btn btn-white btn-detail">chi tiết</a>
+                            <div class="l-4 c-12">
+                                <p class="silder-item__mota">Giao diện website</p>
+                                <h2 class="silder-item__title">Ant Kitchen</h2>
+                                <div class="silder-item__price">
+                                    <span class="silder-item__price-current"><b>1,500,000 VND</b></span>
+                                </div>
+                                <div class="button-group">
+                                    <a href="" class="btn btn-default btn-preview">Xem thử</a>
+                                    <a href="" class="btn btn-white btn-detail">chi tiết</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="btn-action">
+                <a href="" class="btn btn-white btn-detail">Xem thêm giao diện</a>
             </div>
         </div>
     </section>
     <section class="menu-toolbar">
         <div class="container ">
             <div class="row d-flex menu-toolbar__wrap">
-                <ul class="menu-toolbar__list">
+                <ul class="menu-toolbar__list hidden-sm">
                     <li class="menu-toolbar__list-item">
                         <a href="" class="menu-toolbar__link">
                             <svg xmlns="http://www.w3.org/2000/svg" class="image-icon" xmlns:xlink="http://www.w3.org/1999/xlink" width="22px" height="22px">
@@ -123,15 +142,15 @@
         </div>
     </section>
     <section class="main-content">
-        <div class="favorite-themes">
+        <div class="favorite-themes ">
             <div class="container">
                 <h2 class="title">Top giao diện web</h2>
                 <div class="more__group d-flex">
                     <p class="desc">Những mẫu <a href="" style="color: #12d087;" target="_blank">thiết kế web bán hàng</a> được nhiều người dùng nhất</p>
-                    <a class="more-theme" href="" title="Xem thêm">Xem thêm</a>
+                    <a class="more-theme hidden-sm" href="" title="Xem thêm">Xem thêm</a>
                 </div>
-                <div class="row">
-                    <div class="l-3 m-4 col-xs-12 pd-15">
+                <div class="row d-flex">
+                    <div class="l-3 m-4 c-6 pd-15">
                         <div class="theme-item">
                             <div class="theme-image">
                                 <img src="https://bizwebtheme.dktcdn.net/themes/3679/themestores/6217892b05240f3cb200a0616daa99d6.jpg" alt="Big Green">
@@ -150,7 +169,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="l-3 m-4 col-xs-12 pd-15">
+                    <div class="l-3 m-4 c-6 pd-15">
                         <div class="theme-item">
                             <div class="theme-image">
                                 <img src="https://bizwebtheme.dktcdn.net/themes/3627/themestores/47b7a931947eeb1145091865ecbd35f9.png" alt="Big Green">
@@ -169,7 +188,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="l-3 m-4 col-xs-12 pd-15">
+                    <div class="l-3 m-4 c-6 pd-15">
                         <div class="theme-item">
                             <div class="theme-image">
                                 <img src="https://bizwebtheme.dktcdn.net/themes/3576/themestores/35fa883a0f9e582d05816320087d33bc.jpg" alt="Big Green">
@@ -188,7 +207,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="l-3 m-4 col-xs-12 pd-15">
+                    <div class="l-3 m-4 c-6 pd-15">
                         <div class="theme-item">
                             <div class="theme-image">
                                 <img src="https://bizwebtheme.dktcdn.net/themes/3675/themestores/d27461f0f49a9fe41df97cf9140738df.jpg" alt="Big Green">
@@ -207,7 +226,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="l-3 m-4 col-xs-12 pd-15">
+                    <div class="l-3 m-4 c-6 pd-15">
                         <div class="theme-item">
                             <div class="theme-image">
                                 <img src="https://bizwebtheme.dktcdn.net/themes/3679/themestores/6217892b05240f3cb200a0616daa99d6.jpg" alt="Big Green">
@@ -226,7 +245,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="l-3 m-4 col-xs-12 pd-15">
+                    <div class="l-3 m-4 c-6 pd-15">
                         <div class="theme-item">
                             <div class="theme-image">
                                 <img src="https://bizwebtheme.dktcdn.net/themes/3627/themestores/47b7a931947eeb1145091865ecbd35f9.png" alt="Big Green">
@@ -245,7 +264,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="l-3 m-4 col-xs-12 pd-15">
+                    <div class="l-3 m-4 c-6 pd-15">
                         <div class="theme-item">
                             <div class="theme-image">
                                 <img src="https://bizwebtheme.dktcdn.net/themes/3576/themestores/35fa883a0f9e582d05816320087d33bc.jpg" alt="Big Green">
@@ -264,7 +283,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="l-3 m-4 col-xs-12 pd-15">
+                    <div class="l-3 m-4 c-6 pd-15">
                         <div class="theme-item">
                             <div class="theme-image">
                                 <img src="https://bizwebtheme.dktcdn.net/themes/3675/themestores/d27461f0f49a9fe41df97cf9140738df.jpg" alt="Big Green">
@@ -291,26 +310,26 @@
         <div class="container">
             <h2 class="category-title">Mẫu website theo ngành hàng</h2>
             <p class="category-des">Khám phá những mẫu website đẹp, phù hợp với ngành hàng của bạn</p>
-            <div class="list-category">
-                <div class="l-3 m-4 col-xs-12">
+            <div class="list-category d-flex">
+                <div class="l-3 m-4 c-6">
                     <a href="" class="category-link">
                         <span class="category-item__bg" style="background: url('./assets/image/category/fashion-icon.png') no-repeat center center;"></span>
                         <p class="category-item__name">Thời trang</p>
                     </a>
                 </div>
-                <div class="l-3 m-4 col-xs-12">
+                <div class="l-3 m-4 c-6">
                     <a href="" class="category-link">
                         <span class="category-item__bg" style="background: url('./assets/image/category/cosmetic-icon.png') no-repeat center center;"></span>
                         <p class="category-item__name">Mỹ phẩm</p>
                     </a>
                 </div>
-                <div class="l-3 m-4 col-xs-12">
+                <div class="l-3 m-4 c-6">
                     <a href="" class="category-link">
                         <span class="category-item__bg" style="background: url('./assets/image/category/congnghe-icon.png') no-repeat center center;"></span>
                         <p class="category-item__name">Công nghệ</p>
                     </a>
                 </div>
-                <div class="l-3 m-4 col-xs-12">
+                <div class="l-3 m-4 c-6">
                     <a href="" class="category-link">
                         <span class="category-item__bg" style="background: url('./assets/image/category/thucpham-icon.png') no-repeat center center;"></span>
                         <p class="category-item__name">Thực phẩm</p>
@@ -339,7 +358,7 @@
         <div class="footer-menu">
             <div class="container">
                 <div class="row d-flex">
-                    <div class="l-3">
+                    <div class="l-3 c-6">
                         <h3 class="menu-footer__title">Sapo.vn</h3>
                         <ul class="menu-footer__list">
                             <li class="menu-footer__item">
@@ -359,7 +378,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="l-3">
+                    <div class="l-3 c-6">
                         <h3 class="menu-footer__title">Sản phẩm</h3>
                         <ul class="menu-footer__list">
                             <li class="menu-footer__item">
@@ -379,7 +398,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="l-3">
+                    <div class="l-3 c-6">
                         <h3 class="menu-footer__title">Thiết kế website bán hàng</h3>
                         <ul class="menu-footer__list">
                             <li class="menu-footer__item">
@@ -399,7 +418,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="l-3">
+                    <div class="l-3 c-6">
                         <h3 class="menu-footer__title">Giải pháp quản lí</h3>
                         <ul class="menu-footer__list">
                             <li class="menu-footer__item">
